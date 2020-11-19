@@ -1,0 +1,80 @@
+.main{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+.main__input{
+   background: none;
+   padding: 5px 5px 5px 55px;
+   border: #ffffff4f 2px solid;
+   border-radius: 999px;
+   margin: 40px auto;
+   width: 60%;
+   position: relative;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   transition: all ease-in-out .3s;
+
+}
+.main__input:hover{
+   background: rgba(255, 255, 255, 0.85);
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.main__input:before{
+   content: '/r/';
+   font-size: 1.8em;
+   font-weight: bold;
+   position: absolute;
+   left: 15px;
+   color: rgb(253, 130, 177);
+}
+.main input{
+   font-size: 1.8em;
+   background: transparent;
+   width: 100%;
+   border: none;
+   outline: none;
+   outline-width: 0;
+}
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   width: 100%;
+   justify-content: center;
+}
+.main__card{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background: #ffffff6b;
+   margin: 20px 0;
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   transition: background .4s ease-in-out;
+}
+.main__card:hover{
+   background: rgba(255, 255, 255, 0.85);
+}
+.main__card a{
+   text-decoration: none;
+   color: #7a7a7a;
+   transition: color .3s ease-in-out;
+}
+.main__card a:hover{
+   color: black;
+   
+}
+.card-top{
+   width: 300px;
+   min-height: 120px;
+}
+.card-bottom{
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.bottom-vote{
+   display: flex;
+   align-items: center;
+}
